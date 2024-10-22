@@ -1,0 +1,16 @@
+<div class="carousel-container">
+
+    <div id="carousel">
+        {% for i in range(1, 5) %}
+            <div class="carousel-feature">
+                <a href="#">
+                    <img class="carousel-image" alt="Image Caption" src="images/{{ _ }}/2.webp">
+                </a>
+            </div>
+        {% endfor %}
+
+    </div>
+
+    <div id="carousel-left"><img src="images/arrow-left.png"/></div>
+    <div id="carousel-right"><img src="images/arrow-right.png"/></div>
+</div>
